@@ -1,0 +1,44 @@
+# Ignore virtual environment folder
+# venv/
+# .venv/
+# newenv/
+# environment/
+# localcoherenceenv/
+# emnlp2021-neural-graph-based-coherence-model/localcoherenceenv/
+# LCenv/
+# cnn_coherence/
+# cnn_coherence copy/
+# emnlp2021-neural-graph-based-coherence-model/
+
+*
+!Thesis/
+Thesis/bertopicenv310/
+Thesis/thesisenv/
+Thesis/data/
+
+!Thesis/**
+Thesis/topic_models/
+
+
+!.gitignore
+!.gitattributes
+!.README
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+True.csv
+Fake.csv
+Fake.csv.zip
+True.csv.zip
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings folder
+.vscode/
+
+# Ignore system files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
